@@ -4,7 +4,7 @@
   "description": "A MSMQ implementation for node.js",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm run build:js && npm run build:lib",
+    "install": "npm run build:js && npm run build:lib",
     "build:js": "babel *.js --out-dir=dist",
     "build:lib": "csc /target:library /out:dist\\MSMQLib.dll MSMQLib\\MSMQMessage.cs MSMQLib\\MSMQInterface.cs"
   },
