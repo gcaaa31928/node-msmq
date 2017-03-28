@@ -39,6 +39,6 @@
   },
   "dependencies": {
     "babel-runtime": "^6.9.0",
-    "edge": "^5.0.0"
+    "edge": "^6.0.0"
   }
 }
